@@ -219,7 +219,7 @@ export default function Home() {
               Data kamu sudah mendarat di ring. Langkah terakhir, silakan bergabung ke grup koordinasi melalui tombol di bawah ini:
             </p>
             <a 
-              href="https://chat.whatsapp.com/KFv6VYZRRDc64sVO5y6Gcv?mode=gi_t" 
+              href="https://chat.whatsapp.com/CcVxRM5P0cPKBqQKdRgO2N?mode=gi_t" 
               target="_blank"
               className="block w-full bg-green-600 hover:bg-green-500 text-white py-4 font-black uppercase italic text-xl transition-all shadow-[5px_5px_0px_0px_#fff] active:translate-y-1 active:shadow-none"
             >
