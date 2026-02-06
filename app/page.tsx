@@ -97,8 +97,8 @@ export default function Home() {
               <ul className="space-y-2 font-bold uppercase italic text-xs md:text-base">
                 <li>• Mengisi formulir pendaftaran resmi</li>
                 <li>• Fotokopi KTP/Pelajar (Menyusul)</li>
-                <li>• Foto terbaru (Topless, hadap depan)</li>
-                <li>• Membayar biaya pendaftaran</li>
+                <li>• Foto terbaru (Topless, hadap depan) (Menyusul)</li>
+                <li>• Membayar biaya pendaftaran sebesar Rp. 350.000</li>
                 <li>• Wajib memiliki Rekor Book</li>
               </ul>
             </div>
@@ -125,6 +125,7 @@ export default function Home() {
               <ul className="space-y-2 font-bold uppercase italic text-xs md:text-base text-gray-400">
                 <li>• Wajib Teknikal Meeting</li>
                 <li>• Menyerahkan Rekor Book</li>
+                <li>• 1 Fighter minimal membawa 10 Suporter</li>
               </ul>
               <a href="#register" className="mt-8 block w-full text-center bg-white text-black py-4 font-black uppercase italic hover:bg-rumble-red hover:text-white transition-all">
                 DAFTAR SEKARANG
