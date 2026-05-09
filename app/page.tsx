@@ -33,7 +33,6 @@ export default function Home() {
 
     setLoading(true);
     try {
-      // 1. Upload Foto ke Singapore
       const fileExt = file.name.split('.').pop();
       const fileName = `${Math.random()}.${fileExt}`;
       const filePath = `payments/${fileName}`;
@@ -42,7 +41,6 @@ export default function Home() {
 
       const { data: { publicUrl } } = supabase.storage.from('payment-proofs').getPublicUrl(filePath);
 
-      // 2. Masukkan Data ke Database
       const { error: dbError } = await supabase.from('fighters').insert([{ 
         ...formData,
         bukti_bayar_url: publicUrl,
@@ -52,7 +50,6 @@ export default function Home() {
 
       if (dbError) throw dbError;
 
-      // 3. Tampilkan Pop-up Sukses
       setIsSuccess(true);
 
     } catch (err: any) {
