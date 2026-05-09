@@ -1,12 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  /* Kita tambahkan warna khusus RumbleClash di sini */
   --color-rumble-red: #7B0D0D;
   --color-rumble-black: #0D0D0D;
   --color-rumble-white: #E5E5E5;
   
-  /* Tambahkan font tebal khas boxing */
   --font-boxing: "Impact", "Arial Narrow Bold", sans-serif;
 }
 
