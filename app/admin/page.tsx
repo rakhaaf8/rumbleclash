@@ -7,13 +7,12 @@ export default function AdminDashboard() {
   const [fighters, setFighters] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // Fungsi untuk mengambil data dari Singapore
   const fetchFighters = async () => {
     setLoading(true);
     const { data, error } = await supabase
       .from("fighters")
       .select("*")
-      .order("created_at", { ascending: false }); // Pendaftar terbaru di atas
+      .order("created_at", { ascending: false });
 
     if (error) {
       alert("Gagal ambil data: " + error.message);
